@@ -156,7 +156,7 @@ TextureImporter:
       213: 21300100
     second: Tileset_50
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -216,6 +216,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -291,6 +292,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1410,13 +1423,13 @@ TextureImporter:
       Tileset_32: 21300064
       Tileset_22: 21300044
       Tileset_9: 21300018
+      Tileset_34: 21300068
       Tileset_0: 21300000
       Tileset_39: 21300078
-      Tileset_41: 21300082
-      Tileset_34: 21300068
+      Tileset_42: 21300084
       Tileset_7: 21300014
       Tileset_12: 21300024
-      Tileset_42: 21300084
+      Tileset_41: 21300082
       Tileset_4: 21300008
       Tileset_37: 21300074
       Tileset_50: 21300100
