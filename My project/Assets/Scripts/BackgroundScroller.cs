@@ -19,3 +19,4 @@ public class BackgroundScroller : MonoBehaviour
         mat.SetTextureOffset("_MainTex", new Vector2(offset, 0));
     }
 }
+
