@@ -432,7 +432,7 @@ TextureImporter:
       213: 21300284
     second: button UI_142
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -492,6 +492,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -567,6 +568,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -3601,7 +3614,6 @@ TextureImporter:
       button UI_118: 21300236
       button UI_121: 21300242
       button UI_72: 21300144
-      button UI_140: 21300280
       button UI_122: 21300244
       button UI_104: 21300208
       button UI_71: 21300142
@@ -3630,18 +3642,18 @@ TextureImporter:
       button UI_97: 21300194
       button UI_89: 21300178
       button UI_0: 21300000
-      button UI_23: 21300046
-      button UI_80: 21300160
+      button UI_142: 21300284
       button UI_100: 21300200
+      button UI_23: 21300046
       button UI_64: 21300128
       button UI_31: 21300062
       button UI_11: 21300022
       button UI_119: 21300238
+      button UI_80: 21300160
       button UI_101: 21300202
       button UI_28: 21300056
       button UI_38: 21300076
       button UI_50: 21300100
-      button UI_142: 21300284
       button UI_134: 21300268
       button UI_99: 21300198
       button UI_37: 21300074
@@ -3724,12 +3736,13 @@ TextureImporter:
       button UI_41: 21300082
       button UI_83: 21300166
       button UI_107: 21300214
+      button UI_140: 21300280
       button UI_6: 21300012
-      button UI_27: 21300054
       button UI_55: 21300110
-      button UI_111: 21300222
+      button UI_27: 21300054
       button UI_128: 21300256
       button UI_102: 21300204
+      button UI_111: 21300222
       button UI_25: 21300050
       button UI_96: 21300192
       button UI_135: 21300270
